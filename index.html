@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="shortcut icon" href="./src/assets/GP LOGO.png" type="image/x-icon" />
+    <title>str-GabrielPedroso</title>
+</head>
+
+<body>
+    <div class="container-back">
+        <div class="container-front index-front">
+            <header>
+                <img src="./src/assets/GP LOGO.png" class="imagem-perfil">
+                <div>
+                    <h2>Gabriel Pedroso</h2>
+                    <h5>gbpedroso.22@gmail.com</h5>
+                </div>
+            </header>
+            <div class="content-list">
+                <ul class="content">
+                    <li class="sobre-mim" onclick="showSobreMim()">
+                        <ion-icon class="content-icon" name="person-outline"></ion-icon>
+                        <p>Sobre mim</p>
+                        <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
+                    </li>
+                    <li class="skills" onclick="showSkills()">
+                        <ion-icon class="content-icon" name="cube-outline"></ion-icon>
+                        <p>Skills</p>
+                        <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
+                    </li>
+                    <li class="certificados" onclick="showCertificados()">
+                        <ion-icon class="content-icon" name="ribbon-outline"></ion-icon>
+                        <p>Certificados</p>
+                        <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
+                    </li>
+                    <li class="projetos" onclick="showProjetos()">
+                        <ion-icon class="content-icon" name="pie-chart-outline"></ion-icon>
+                        <p>Portfólio</p>
+                        <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
+                    </li>
+                </ul>
+            </div>
+            <nav id="redes-sociais">
+                <a href="https://wa.me/+5511942970734" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/gaah_pedroso/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://github.com/Str-GabrielPedroso" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://br.linkedin.com/in/gabriel-pedroso-de-almeida-6b7888143" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </nav>
+        </div>
+        <div>
+            <div id="card-sobre-mim" class="card-section">
+                <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
+                <h1 class="card-titulos">Sobre mim</h1>
+                <p class="descricao">
+                    </br>
+                    Sou um desenvolvedor front-end, formado em ADS(Análise e Desenvolvimento de Sistemas) com uma
+                    facilidade para criação de interfaces de usuário atraentes
+                    e funcionais. Meu interesse pela área de desenvolvimento web começou durante meus estudos na
+                    faculdade, onde
+                    adquiri habilidades sólidas em HTML, CSS e JavaScript, assim como outras.</br></br>
+
+                    Atualmente, estou trabalhando como analista de help desk na área de field services, onde ganhei
+                    experiência valiosa no atendimento ao cliente e na solução de problemas técnicos. Essa oportunidade
+                    me permitiu aprimorar minhas habilidades de comunicação e trabalho em equipe, além de desenvolver
+                    uma compreensão abrangente das necessidades dos usuários e da importância de fornecer suporte
+                    técnico eficiente.</br></br>
+
+                    Estou ansioso para combinar minha experiência em help desk com meu interesse pelo desenvolvimento
+                    front-end. Tenho a capacidade de traduzir as necessidades dos usuários em interfaces intuitivas e
+                    atraentes, garantindo a melhor experiência possível.</br></br>
+
+                    Estou constantemente buscando aprimorar minhas habilidades e aprender novas tecnologias. Sou
+                    altamente motivado, autodidata e tenho facilidade em aprender novos conceitos de programação. Estou
+                    pronto para contribuir em projetos desafiadores e colaborar em uma equipe dinâmica de
+                    desenvolvimento.</br></br>
+
+                    Se você está procurando um desenvolvedor front-end junior comprometido, apaixonado e disposto a
+                    enfrentar novos desafios, estou pronto para fazer parte da sua equipe. Entre em contato comigo para
+                    discutirmos como posso contribuir para o sucesso de sua empresa.
+                </p>
+            </div>
+            <div id="card-skills" class="card-section">
+                <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
+                <h1 class="card-titulos">Skills</h1>
+                <div class="skills-icon">
+                    <h4>• Linguagens de Programação :</h4>
+                    <ul>
+                        <li>
+                            <img src="./src/assets/java-script.png" class="icon" title="Java-Script">
+                            <img src="./src/assets/c++.png" class="icon" title="C++">
+                            <img src="./src/assets/c-sharp.png" class="icon" title="C#">
+                            <img src="./src/assets/python.png" class="icon" title="Python">
+                            <img src="./src/assets/java.png" class="icon" title="Java">
+                        </li>
+                    </ul>
+                    <h4>• Desenvolvimento Web :</h4>
+                    <ul>
+                        <li>
+                            <img src="./src/assets/html-5.png" class="icon" title="HTML 5">
+                            <img src="./src/assets/css-3.png" class="icon" title="CSS 3">
+                        </li>
+                    </ul>
+                    <h4>• Ferramentas de Versionamento :</h4>
+                    <ul>
+                        <li>
+                            <img src="./src/assets/git.png" class="icon" title="Git">
+                            <img src="./src/assets/github.png" class="icon" title="Github">
+                        </li>
+                    </ul>
+                    <h4>• Banco de Dados :</h4>
+                    <ul>
+                        <li>
+                            <img src="./src/assets/mysql.png" class="icon" title="MySQL">
+                        </li>
+                    </ul>
+                    <h4>• Design :</h4>
+                    <ul>
+                        <li>
+                            <img src="./src/assets/photoshop.png" class="icon" title="Photoshop">
+                            <img src="./src/assets/illustrator.png" class="icon" title="Ilustrator">
+                            <img src="./src/assets/figma.png" class="icon" title="Figma">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="card-certificados" class="card-section">
+                <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
+                <h1 class="card-titulos">Certificações</h1>
+            </div>
+            <div id="card-projetos" class="card-section">
+                <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
+                <h1 class="card-titulos">Portfólio</h1>
+            </div>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

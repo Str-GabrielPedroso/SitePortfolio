@@ -26,22 +26,22 @@
             </header>
             <div class="content-list">
                 <ul class="content">
-                    <li class="sobre-mim" onclick="show()">
+                    <li class="sobre-mim" onclick="showSobreMim()">
                         <ion-icon class="content-icon" name="person-outline"></ion-icon>
                         <p>Sobre mim</p>
                         <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
                     </li>
-                    <li class="skills" onclick="show()">
+                    <li class="skills" onclick="showSkills()">
                         <ion-icon class="content-icon" name="cube-outline"></ion-icon>
-                        <p>Skills</p>
+                        <p>Habilidades</p>
                         <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
                     </li>
-                    <li class="certificados" onclick="show()">
+                    <li class="certificados" onclick="showCertificados()">
                         <ion-icon class="content-icon" name="ribbon-outline"></ion-icon>
                         <p>Certificados</p>
                         <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
                     </li>
-                    <li class="projetos" onclick="show()">
+                    <li class="projetos" onclick="showProjetos()">
                         <ion-icon class="content-icon" name="pie-chart-outline"></ion-icon>
                         <p>Portfólio</p>
                         <ion-icon class="go-icon" name="chevron-forward-outline"></ion-icon>
@@ -64,7 +64,7 @@
             </nav>
         </div>
         <div>
-            <div id="card" class="card-section" style="display: none;">
+            <div id="card-sobre-mim" class="card-section" style="display: none;">
                 <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
                 <h1 class="card-titulos">Sobre mim</h1>
                 <p class="descricao">
@@ -95,9 +95,9 @@
                     discutirmos como posso contribuir para o sucesso de sua empresa.
                 </p>
             </div>
-            <div id="card" class="card-section" style="display: none;">
+            <div id="card-skills" class="card-section" style="display: none;">
                 <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
-                <h1 class="card-titulos">Skills</h1>
+                <h1 class="card-titulos">Habilidades</h1>
                 <div class="skills-icon">
                     <h4>• Linguagens de Programação :</h4>
                     <ul>
@@ -137,13 +137,20 @@
                             <img src="./src/assets/figma.png" class="icon" title="Figma">
                         </li>
                     </ul>
+                    <h4>• Idiomas :</h4>
+                    <ul>
+                        <li>
+                            <img src="./src/assets/brazil.png" class="icon" title="Portugues, nativo">
+                            <img src="./src/assets/united-states.png" class="icon" title="Ingles, intermediario">
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div id="card" class="card-section" style="display: none;">
+            <div id="card-certificados" class="card-section" style="display: none;">
                 <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
                 <h1 class="card-titulos">Certificações</h1>
             </div>
-            <div id="card" class="card-section" style="display: none;">
+            <div id="card-projetos" class="card-section" style="display: none;">
                 <ion-icon name="arrow-back-circle-outline" class="back-icon" onclick="exitCards()"></ion-icon>
                 <h1 class="card-titulos">Portfólio</h1>
             </div>

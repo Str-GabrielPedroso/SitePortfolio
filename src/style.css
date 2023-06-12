@@ -153,6 +153,10 @@ h1 {
     cursor: pointer;
 }
 
+.back-icon:hover {
+    transform: scale(1.2);
+}
+
 .skills-icon ul li {
     display: flex;
     justify-content: start;
@@ -173,6 +177,41 @@ h1 {
 
 .icon:hover {
     animation: animate-icon 1.2s ease-in-out infinite;
+}
+
+.linguagem-de-fala {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linguagem-estilo {
+    font-size: 13px;
+    color: #c9c9c9;
+}
+
+.estilo-linguagem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.certificados-fundo {
+    background-color: #202124;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-certificados {
+    width: 80%;
+    height: auto;
+    max-height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 @keyframes animate-icon {

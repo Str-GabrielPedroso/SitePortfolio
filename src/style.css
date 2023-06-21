@@ -91,6 +91,11 @@ h5 a {
     color: inherit;
 }
 
+h5 a:hover {
+    color: #000000d8;
+    font-weight: bolder;
+}
+
 /* Conteúdo */
 
 .content {
@@ -160,13 +165,9 @@ h1 {
 .skills-icon ul li {
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 20px 0;
-}
-
-.skills-icon {
-    max-height: 400px;
-    overflow-y: scroll;
 }
 
 .icon {
@@ -176,7 +177,7 @@ h1 {
 }
 
 .icon:hover {
-    animation: animate-icon 1.2s ease-in-out infinite;
+    animation: animate-icon 1.2s ease-in-out;
 }
 
 .linguagem-de-fala {
